@@ -1,5 +1,5 @@
 name: Daily Tieba Sign-In
-
+# force re-register schedule 2026-10-13
 on:
   workflow_dispatch:
   schedule:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 

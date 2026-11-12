@@ -1,5 +1,5 @@
 name: Daily Tieba Sign-In
-# force re-register schedule 2026-10-13
+# force re-register schedule 2026-11-12
 on:
   workflow_dispatch:
   schedule:
